@@ -67,7 +67,8 @@ body {
   position: relative; }
 
 a:hover {
-  cursor: pointer; }
+  cursor:pointer;
+}
 
 img {
   max-width: 100%;
@@ -122,7 +123,7 @@ select {
 
 .row {
   margin: 0 auto;
-  max-width: 62.5rem;
+  max-width: 65.5rem;
   width: 100%; }
   .row:before, .row:after {
     content: " ";
@@ -175,12 +176,35 @@ select {
 .columns.end {
   float: left; }
   
-  #nav-bar-background {
-	  background-color:#fff;
-	  position:fixed;
-	  marign: 0 0 10rem 0;
-  }
+  /*------STUFF I"M TESTING OUT-------*/
+#nav-bar-background {
+	 background-color:#fff;
+	 marign: 0 0 10rem 0;
+	 padding: 0 1rem 0
+}
 
+#about-me-header {
+	margin-top:5em
+}
+
+#about-background {
+	background-color:black;
+}
+
+#about-me-paragraph {
+	padding: 0 3em 0 0;
+	line-height:2em;
+	color:#fff;
+}
+
+img {
+	margin-bottom:2rem;
+}
+
+
+
+/*------STUFF I"M TESTING OUT END-------*/
+  
 @media only screen {
   .small-push-0 {
     position: relative;
@@ -1173,8 +1197,8 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
@@ -1183,12 +1207,10 @@ button, .button {
   display: inline-block;
   padding: 1rem 2rem 1.0625rem 2rem;
   font-size: 1rem;
-  background-color: #2ba6cb;
-  border-color: #2285a2;
-  color: #000;
+  color: #51BED2;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2285a2; }
+    background-color: #E28769; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF; }
   button.secondary, .button.secondary {
@@ -1925,21 +1947,11 @@ td {
   margin: 0;
   padding: 0; }
 
-/* Default Link Styles */
-a {
-  color: #2ba6cb;
-  line-height: inherit;
-  text-decoration: none; }
-  a:hover, a:focus {
-    color: #258faf; }
-  a img {
-    border: none; }
-
 /* Default paragraph styles */
 p {
-  font-family: inherit;
+  font-family: 'Lato';
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
