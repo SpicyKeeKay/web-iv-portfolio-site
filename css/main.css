@@ -9,35 +9,36 @@
 }
 
 #about-me-header {
-	margin-top:5em
+	margin-top:4rem
 }
 
 #about-background {
-	background-color:black;
+	background-color:#E28769;
 }
 
-#about-me-paragraph {
-	padding: 0 3em 0 0;
+.about-me-paragraph {
+	padding: 0 4rem 0 0;
 	line-height:2em;
 	color:#fff;
+	font-size:13px;
 }
 
-img {
+.placeholder {
 	margin-bottom:2rem;
 }
 
-img:before {
- content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background:#51BED2;
+.placeholder-med {
+	margin-bottom:1.9rem;	
 }
 
-button, .button {
+.creature-name {
+	text-transform:uppercase;
+	font-size:1.3rem;
+	padding:0 0 1rem 5.5rem;
+}
+
+
+.button {
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0;
@@ -56,7 +57,9 @@ button, .button {
   font-size: 1rem;
   color: #51BED2;
   transition: background-color 300ms ease-out; }
-  button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #E28769; }
+
+.button:hover {
+    background-color: #E28769;
+}
 
 /*------STUFF I"M TESTING OUT END-------*/
