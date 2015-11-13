@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+  /*------STUFF I"M TESTING OUT-------*/
+#nav-bar-background {
+	 background-color:#fff;
+	 marign: 0 0 10rem 0;
+	 padding: 0 1rem 0
+}
+
+#about-me-header {
+	margin-top:5em
+}
+
+#about-background {
+	background-color:black;
+}
+
+#about-me-paragraph {
+	padding: 0 3em 0 0;
+	line-height:2em;
+	color:#fff;
+}
+
+img {
+	margin-bottom:2rem;
+}
+
+img:before {
+ content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:#51BED2;
+}
+
+button, .button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem 1.0625rem 2rem;
+  font-size: 1rem;
+  color: #51BED2;
+  transition: background-color 300ms ease-out; }
+  button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #E28769; }
+
+/*------STUFF I"M TESTING OUT END-------*/
