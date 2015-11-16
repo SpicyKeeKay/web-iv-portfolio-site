@@ -8,40 +8,41 @@
 <link href="css/main.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/foundation.css" />
 <script src="js/vendor/modernizr.js"></script>
+<script src="js/responsive-nav.js"></script>
+<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-
-<div class="row" id="nav-bar-background">
-        <div class="large-3  medium-3 small-4 columns">
-          <h1><img src="http://placehold.it/400x100&text=Logo"/></h1>
-        </div>
-        <div class="large-9  medium-8 small-8 columns">
-          <ul class="right button-group">
-          	<li><a href="index.html" class="button">Work</a></li>
-          	<li><a href="#" class="button">About</a></li>
-          	<li><a href="#" class="button">Contact</a></li>
-          </ul>
-         </div>
-       </div>
-
-    <div class="row">
-      <div class="large-6 medium-7 small-11 columns">
-      	<img src="http://placehold.it/700x800&text=[img]"/>
-      </div>
-        <div class="row" id="about-background">
-          <div class="large-6 medium-5 small-11 columns">
+<header>
+	<a href="#home" class="logo" data-scroll>Fixed Nav</a>
+    <nav class="nav-collapse">
+    	<ul>
+          <li class="menu-item active"><a href="index.html" data-scroll>Work</a></li>
+          <li class="menu-item"><a href="#" data-scroll>About</a></li>
+          <li class="menu-item"><a href="index.html#contact" data-scroll>Contacts</a></li>
+        </ul>
+    </nav>
+</header>
+    
+<div class="row">
+	<div class="large-6 medium-7 small-11 columns">
+    	<img src="http://placehold.it/700x800&text=[img]"/>
+	</div>
+    <div class="row" id="about-background">
+    	<div class="large-6 medium-5 small-11 columns">
           	<h2 id="about-me-header">Lettered header</h2>
-          	<p class="about-me-paragraph">Yo hey hey! I Hope you like my portfolio site that I  coded myself . My name is Enrique Garay but everyone calls me Keekay (A nickname I got growing up.) Originally from Chihuahua Mexico, I came to the US with my family for a better life. I’m currently a designer in Lincoln, Nebraska. I studied graphic design in the Graphic Design/Media Arts program at Southeast Community College. I have a strong passion for adding illustrative and handmade elements to my designs. Which I feel helps give a project that little extra something to make it stand out. I’m also proficient in the adobe creative suite.</p>
+          	<p class="about-me-paragraph">Yo hey hey! I hope your enjoying my portfolio site. My name is Enrique Garay but everyone calls me Keekay (A nickname I got growing up.) Originally from Chihuahua Mexico, I came to the US with my family. I’m currently a graphic designer in Lincoln, Nebraska. I studied graphic design in the Graphic Design/Media Arts program at Southeast Community College. I have a strong passion for adding illustrative and handmade elements to my designs. Which I feel helps give a project that little extra something to make it stand out. I’m also proficient in the adobe creative suite.</p>
 <p class="about-me-paragraph">When I’m not designing or practicing illustrating/Lettering, I can be found playing Super Smash Bros.,Fire Emblem or drinking soda. I also collect and read a vast array of mangas. I enjoy meeting new people even though I’m shy. </p>
-          </div>
         </div>
     </div>
-    
-    
-     <script src="js/vendor/jquery.js"></script>
+</div>
+
+    <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.interchange.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
     <script>
       $(document).foundation();
     </script>
