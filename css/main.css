@@ -1,38 +1,37 @@
 @charset "UTF-8";
 /* CSS Document */
 
-  /*------STUFF I"M TESTING OUT-------*/
+/*------STUFF I"M TESTING OUT-------*/
+
+*p {
+	font-family:'Lato';
+}
 
 #about-me-header {
 	margin-top:4rem
 }
 
+.product-image {
+	margin: 0 0 2rem 0;
+}
+
+/*
 #about-background {
 	background-color:#E28769;
-}
+}*/
 
 .about-me-paragraph {
 	padding: 0 4rem 0 0;
-	line-height:2em;
-	color:#fff;
-	font-size:13px;
+	line-height:2rem;
+	color:#000;
+	font-size:.9rem;
 }
 
-.placeholder {
+columns {
 	margin-bottom:2rem;
 }
 
-.placeholder-med {
-	margin-bottom:1.9rem;	
-}
-
-.creature-name {
-	text-transform:uppercase;
-	font-size:1.3rem;
-	padding:0 0 1rem 5.5rem;
-}
-
-
+/*
 .button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -56,8 +55,243 @@
 .button:hover {
     background-color: #E28769;
 }
+*/
 
 li a {
 	color:#fff;
 }
+
+/*--- Package Design----*/
+
+#firstpackageimage {
+	margin: 6rem 0 0 0;
+}
+
+#packageheader {
+	margin:5rem 0 0 0;
+	font-family:'Open Sans';
+	font-weight:700;
+}
+
+
+
+/*
+.design-category {
+	font-family: 'Open Sans';
+	font-weigth:300;
+}
+*/
+
+#packageparagraph {
+	font-size:.9rem;
+	line-height:1.9rem;
+}
+
+.conceptparagraph {
+	 font-size:.9rem;
+	 line-height:1.9rem;
+	 font-family:
+ }
+ 
+/*--- Package Design End----*/
+
+/*--- Cthulu----*/
+
+#firstcthuluimage {
+	margin: 6rem 0 0 0;
+}
+
+#cthuluheader {
+	margin: 8rem 0 0 0;
+	text-transform:uppercase;
+	font-weight:700;
+}
+
+#cthuluparagraph {
+	font-size:.9rem;
+	line-height:1.9rem;
+	margin:0 0 1rem 0;
+}
+
+.design-category {
+	text-transform:uppercase;
+	font-weight:300;
+}
+
+
+/*--- Cthulu Ends----*/
+
+/*--- ABOUT ME ----*/
+
+#aboutmeimage {
+	margin-top:5rem;
+}
+	
+#about-me-header {
+	margin-top:4rem
+}
+
+/*
+#about-background {
+	background-color:#E28769;
+}*/
+
+.about-me-paragraph {
+	padding: 0 4rem 0 0;
+	line-height:2em;
+	color:#000;
+	font-size:13px;
+}
+
+/*--- ABOUT ME END ----*/
+
+/*--- HOVER---*/
+
+figure.snip0017 {
+  font-family:'Lato';
+  text-transform:uppercase;
+  color: #fff;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  background: #40A5B2;
+  text-align: right;
+}
+figure.snip0017 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip0017 img {
+  opacity: 1;
+  width: 100%;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip0017 figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px 3em;
+  width: 100%;
+  height: 100%;
+}
+figure.snip0017 figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 100%;
+  bottom: 30px;
+  left: 30px;
+  border-right: 3px solid rgba(255, 255, 255, 0.9);
+  content: '';
+  opacity: 0;
+  background-color: rgba(226, 135, 105, 0.9);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.3s;
+}
+figure.snip0017 h2,
+figure.snip0017 p {
+  margin: 0 0 5px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
+}
+figure.snip0017 h2 {
+  font-family:'Open Sans';
+  font-size:1.5rem;
+  color:#fff;
+  word-spacing: -0.15em;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-transform: translate3d(-30%, 0%, 0);
+  transform: translate3d(-30%, 0%, 0);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip0017 h2 span {
+  font-weight: 800;
+}
+figure.snip0017 p {
+  font-weight: 200;
+  -webkit-transform: translate3d(0%, -30%, 0);
+  transform: translate3d(0%, -30%, 0);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.1s;
+}
+figure.snip0017 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  color: #ffffff;
+}
+figure.snip0017:hover img {
+  opacity: 0.2;
+}
+figure.snip0017:hover figcaption h2,
+figure.snip0017:hover figcaption p {
+  visibility: visible;
+}
+figure.snip0017:hover figcaption h2 {
+  opacity: 1;
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+figure.snip0017:hover figcaption p {
+  opacity: 0.9;
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+figure.snip0017:hover figcaption::before {
+  background: rgba(226, 135, 105, 0);
+  right: 30px;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+ h2 {
+	color:#fff; 
+ }
+
+@media only screen and (max-width: 40em) {
+	
+/*---Salted Mountain----*/
+
+#packageheader {
+	margin:0 0 0 0;
+}
+
+/*---Salted Mountain End----*/
+
+/*----Cthulu-----*/
+
+#cthuluheader {
+	margin: 0 0 0 0;
+}
+/*----Cthulu End-----*/
+
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+.about-me-paragraph {
+	padding: 0 4rem 0 0;
+	line-height:1.5rem;
+	color:#000;
+	font-size:.8rem;
+}
+
+#cthuluheader {
+	margin: 4rem 0 0 0;
+}
+
 
