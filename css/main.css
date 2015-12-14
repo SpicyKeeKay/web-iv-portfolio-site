@@ -15,51 +15,23 @@
 	margin: 0 0 2rem 0;
 }
 
-/*
-#about-background {
-	background-color:#E28769;
-}*/
-
-.about-me-paragraph {
-	padding: 0 4rem 0 0;
-	line-height:2rem;
-	color:#000;
-	font-size:.9rem;
-}
 
 columns {
 	margin-bottom:2rem;
 }
 
-/*
-.button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border-radius: 0;
-  border-style: solid;
-  border-width: 0;
-  cursor: pointer;
-  font-family: "Roboto Condensed";
-  font-weight: 700;
-  line-height: normal;
-  margin: 0 0 1.25rem;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  padding: 1rem 2rem 1.0625rem 2rem;
-  font-size: 1rem;
-  color: #51BED2;
-  transition: background-color 300ms ease-out; }
-
-.button:hover {
-    background-color: #E28769;
-}
-*/
-
 li a {
 	color:#fff;
 }
+
+/*---- HERO IMAGE----*/
+
+#hero-cat{
+	margin: 8rem 0 6rem 6.5rem;
+}
+
+/*---- HERO IMAGE----*/
+
 
 /*--- Package Design----*/
 
@@ -131,17 +103,15 @@ li a {
 	margin-top:4rem
 }
 
-/*
-#about-background {
-	background-color:#E28769;
-}*/
-
 .about-me-paragraph {
-	padding: 0 4rem 0 0;
-	line-height:2em;
-	color:#000;
-	font-size:13px;
+	line-height:2rem;
+	font-size:.9rem;
+	padding: 0 0 0 0rem;
+	max-width:30rem;
 }
+
+
+
 
 /*--- ABOUT ME END ----*/
 
@@ -261,8 +231,163 @@ figure.snip0017:hover figcaption::before {
  h2 {
 	color:#fff; 
  }
+ 
+/*--- About Lettering ---*/
+#about-lettering {
+	margin: 4rem 0 0 3.5rem;
+}
+
+/*--- About Lettering End ---*/
+
+/*---- Contact Form ----*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #f9f9f9;
+}
+
+h2, input, textarea, button{
+	font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-input-placeholder{color: #E28769;}
+:-moz-placeholder { /* Firefox 18- */ color: #E28769;}
+::-moz-placeholder {  /* Firefox 19+ */ color: #E28769;}
+:-ms-input-placeholder {color: #E28769;}
+
+.container{
+	width: 90%;
+	padding: 15px;
+	margin: 50px auto;
+}
+
+.container h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: #51BED2;
+}
+
+.title-bar{
+	margin: 1px auto 10px auto;
+	width: 100px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+#contact input[type="text"],#contact input[type="email"], #contact textarea{
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	width: 90%;
+	font-size: 18px;
+	color: #777;
+  border: 1px solid #ccc;
+}
+
+#contact textarea{
+	font-size: 16px;
+}
+
+#contact input:hover, #contact textarea:hover{
+	border: 1px solid #888;
+}
+#contact input:focus, #contact textarea:focus{
+	border: 1px solid #777;
+}
+
+
+#contact textarea{
+	max-width: 90%;
+	min-width: 90%;
+	max-height: 158px;
+	min-height: 158px;
+  resize: none;
+}
+
+#contact .send-button{
+	text-align: center;
+}
+
+#contact .send-button button[type="submit"]{
+    cursor: pointer;
+    background: #51BED2;
+	color: #fff;
+    border: none;
+	width: 95%;
+	padding: 10px 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	transition: .5s ease;
+}
+
+#contact .send-button button[type="submit"]:hover{
+	background:#E28769;
+}
+
+#contact .send-button button[type="submit"]:focus{
+	position: relative;
+	top: 2px;
+}
+
+/*---- Contact Form End ----*/
+
+/*--- footer ----*/
+footer {
+	height:5rem;
+	background:#51BED2;
+	color:#fff;
+	font-size:25px;
+}
+
+footer a {
+    padding:0 0 0 9rem;
+	color:#fff;
+}
+
+footer a:hover {
+	color:#F9CDBB;
+}
+
+@media screen and (min-width: 640px){
+	.container{
+		width: 600px;
+	}
+
+	#contact .right,#contact .left{
+		display: block;
+	}
+
+	#contact .right{
+		float: right;
+		width: 50%;
+	}
+	#contact .left{
+		float: left;
+		width: 50%;
+	}
+	.cl{
+    clear: both;
+    }
+  
+ 
+}
+/*---- Contact Form ----*/
+ 
+
 
 @media only screen and (max-width: 40em) {
+	
+/*---- HERO IMAGE----*/
+
+#hero-cat{
+	margin: 7rem 0 5rem 0;
+}
+
+/*---- HERO IMAGE----*/
 	
 /*---Salted Mountain----*/
 
@@ -279,11 +404,43 @@ figure.snip0017:hover figcaption::before {
 }
 /*----Cthulu End-----*/
 
+/*--- About Lettering ---*/
+#about-lettering {
+	margin-top: 2rem;
+	padding: 0 6rem 0 0;
+}
+/*--- About Lettering End ---*/
+
+  footer a {
+    padding:0 0 0 0rem;
+	font-size:15px;
+  }
+  
+  small {
+	  padding:20rem 0 0 0 ;
+  }
+  
+
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
+/*---- HERO IMAGE----*/
+
+#hero-cat{
+	margin: 9rem 0 7rem 0;
+}
+
+/*---- HERO IMAGE END ----*/
+
+
+#aboutmeimage {
+	padding: 10rem 0 0 0;
+}
+
+
 .about-me-paragraph {
+	margin: 0 0 0 0;
 	padding: 0 4rem 0 0;
 	line-height:1.5rem;
 	color:#000;
@@ -294,4 +451,18 @@ figure.snip0017:hover figcaption::before {
 	margin: 4rem 0 0 0;
 }
 
+/*--- About Lettering ---*/
+#about-lettering {
+	margin-top: 2rem;
+	padding: 0 7rem 0 0;
+}
+/*--- About Lettering End ---*/
+
+ footer a {
+    padding:0 0 0 0rem;
+	font-size:15px;
+  }
+  
+
+}
 
