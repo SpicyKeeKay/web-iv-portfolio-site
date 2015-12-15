@@ -3,9 +3,22 @@
 
 /*------STUFF I"M TESTING OUT-------*/
 
+/*--- Overall: these are shared throughout the site---*/
 *p {
 	font-family:'Lato';
 }
+
+.category {
+	text-transform:uppercase;
+	font-weight:300;
+}
+
+.uppercaseheader {
+	text-transform:uppercase;
+	font-weight:700;
+}
+
+/*--- Overall End---*/
 
 #about-me-header {
 	margin-top:4rem
@@ -14,7 +27,6 @@
 .product-image {
 	margin: 0 0 2rem 0;
 }
-
 
 columns {
 	margin-bottom:2rem;
@@ -30,8 +42,9 @@ li a {
 	margin: 8rem 0 6rem 6.5rem;
 }
 
-/*---- HERO IMAGE----*/
+/*---- HERO IMAGE Ends----*/
 
+/*-------- PRODUCT PAGES STYLING BEGINS HERE --------*/ 
 
 /*--- Package Design----*/
 
@@ -40,29 +53,26 @@ li a {
 }
 
 #packageheader {
-	margin:5rem 0 0 0;
-	font-family:'Open Sans';
-	font-weight:700;
+	margin:8.5rem 0 0 1.7rem;
 }
 
-
-
-/*
-.design-category {
-	font-family: 'Open Sans';
-	font-weigth:300;
+#packagecategory {
+	margin:0 0 0 1.7rem;
 }
-*/
 
 #packageparagraph {
 	font-size:.9rem;
 	line-height:1.9rem;
 }
 
+#top-concept {
+	margin: 11rem 0 0 1rem;
+}
+
 .conceptparagraph {
+	 margin:0 0 0 1rem;
 	 font-size:.9rem;
 	 line-height:1.9rem;
-	 font-family:
  }
  
 /*--- Package Design End----*/
@@ -75,23 +85,80 @@ li a {
 
 #cthuluheader {
 	margin: 8rem 0 0 0;
-	text-transform:uppercase;
-	font-weight:700;
 }
 
-#cthuluparagraph {
+.cthuluparagraph {
 	font-size:.9rem;
 	line-height:1.9rem;
 	margin:0 0 1rem 0;
 }
 
-.design-category {
+#cthuluconcept {
 	text-transform:uppercase;
-	font-weight:300;
+	font-weight:700;
+}
+
+.cthulu-paragraph-width {
+	max-width:40rem;
+}
+
+/*--- Cthulu Ends----*/
+
+/*--- Pinata------*/
+
+#pinata-top-logo {
+	margin:6rem 0 0 0;
+	padding: 0 0 2rem 0
+}
+
+#pinataheader {
+	margin:8rem 0 0 0;
+}
+
+#pinata-category {
+	margin:0 0 .4rem 0;
+}
+
+.pinataparagraph {
+	font-size:.9rem;
+	line-height:1.9rem;
+	margin:0 0 1rem 0;
+	max-width:29rem;
 }
 
 
-/*--- Cthulu Ends----*/
+/*--- Pinata Ends------*/
+
+
+/*--- Crunchyroll ---*/
+
+#crunchyroll-header {
+	margin:8rem 0 0 0;
+}
+
+#crunchyroll-top-logo {
+	margin:6rem 0 0 0;
+}
+
+#crunchyrollparagraph {
+	font-size:.9rem;
+	line-height:1.9rem;
+	margin:0 0 1rem 0;
+	max-width:30rem;
+}
+
+#top-view {
+	margin:0 0 1.8rem 0;
+}
+
+.secondrowcrunchy {
+	margin:0 0 1.8rem 0;
+}
+
+
+/*--- Crunchyroll Ends ---*/
+
+/*-------- PRODUCT PAGES STYLING ENDS HERE --------*/ 
 
 /*--- ABOUT ME ----*/
 
@@ -110,12 +177,9 @@ li a {
 	max-width:30rem;
 }
 
-
-
-
 /*--- ABOUT ME END ----*/
 
-/*--- HOVER---*/
+/*--- HOVER EFFECTS USED ON HOME PAGE PRODUCTS---*/
 
 figure.snip0017 {
   font-family:'Lato';
@@ -127,7 +191,7 @@ figure.snip0017 {
   margin: 10px 1%;
   width: 100%;
   background: #40A5B2;
-  text-align: right;
+  /*text-align: right;*/
 }
 figure.snip0017 * {
   -webkit-box-sizing: border-box;
@@ -232,12 +296,16 @@ figure.snip0017:hover figcaption::before {
 	color:#fff; 
  }
  
-/*--- About Lettering ---*/
-#about-lettering {
-	margin: 4rem 0 0 3.5rem;
+/*--- HOVER EFFECTS USED ON HOME PAGE PRODUCTS---*/
+ 
+/*--- About Me ---*/
+
+#top-about {
+	margin:5rem 0 0 15.2rem;
+	
 }
 
-/*--- About Lettering End ---*/
+/*--- About Me End ---*/
 
 /*---- Contact Form ----*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
@@ -255,10 +323,10 @@ h2, input, textarea, button{
 	font-family: 'Open Sans', sans-serif;
 }
 
-::-webkit-input-placeholder{color: #E28769;}
-:-moz-placeholder { /* Firefox 18- */ color: #E28769;}
-::-moz-placeholder {  /* Firefox 19+ */ color: #E28769;}
-:-ms-input-placeholder {color: #E28769;}
+::-webkit-input-placeholder{color: #51BED2;}
+:-moz-placeholder { /* Firefox 18- */ color: #51BED2;}
+::-moz-placeholder {  /* Firefox 19+ */ color: #51BED2;}
+:-ms-input-placeholder {color: #51BED2;}
 
 .container{
 	width: 90%;
@@ -275,7 +343,7 @@ h2, input, textarea, button{
 .title-bar{
 	margin: 1px auto 10px auto;
 	width: 100px;
-	border-bottom: 1px solid #d9d9d9;
+	border-bottom: 1px solid #E28769;
 }
 
 #contact input[type="text"],#contact input[type="email"], #contact textarea{
@@ -284,8 +352,8 @@ h2, input, textarea, button{
 	margin: 10px auto;
 	width: 90%;
 	font-size: 18px;
-	color: #777;
-  border: 1px solid #ccc;
+	
+  border: 1px solid #E28769;
 }
 
 #contact textarea{
@@ -293,7 +361,7 @@ h2, input, textarea, button{
 }
 
 #contact input:hover, #contact textarea:hover{
-	border: 1px solid #888;
+	border: 1px solid #51BED2;
 }
 #contact input:focus, #contact textarea:focus{
 	border: 1px solid #777;
@@ -335,22 +403,23 @@ h2, input, textarea, button{
 
 /*---- Contact Form End ----*/
 
-/*--- footer ----*/
+    
 footer {
-	height:5rem;
+	height:3rem;
 	background:#51BED2;
+	padding-top:10rem;
 	color:#fff;
 	font-size:25px;
 }
 
 footer a {
-    padding:0 0 0 9rem;
 	color:#fff;
 }
 
 footer a:hover {
 	color:#F9CDBB;
-}
+} 
+
 
 @media screen and (min-width: 640px){
 	.container{
@@ -387,13 +456,27 @@ footer a:hover {
 	margin: 7rem 0 5rem 0;
 }
 
-/*---- HERO IMAGE----*/
+/*---- HERO IMAGE ENDS----*/
 	
 /*---Salted Mountain----*/
 
 #packageheader {
-	margin:0 0 0 0;
+	margin:2rem 0 0 1.3rem;
 }
+
+#packagecategory {
+	margin:0 0 0 1.3rem;
+}
+
+#top-concept {
+	margin: 0 0 0 1rem;
+}
+
+#smallillustration {
+	margin: 2rem 0 1rem 0;
+}
+
+
 
 /*---Salted Mountain End----*/
 
@@ -402,16 +485,76 @@ footer a:hover {
 #cthuluheader {
 	margin: 0 0 0 0;
 }
+
+#cthuluconcept {
+	margin: 0 0 .5rem 1.5rem
+}
+
+.cthulu-paragraph-width {
+	max-width:33rem;
+	margin: 0 0 0 1.5rem;
+}
+
 /*----Cthulu End-----*/
 
-/*--- About Lettering ---*/
-#about-lettering {
-	margin-top: 2rem;
-	padding: 0 6rem 0 0;
+/*--- Pinata ---*/
+
+#pinata-top-logo {
+	margin: 2rem 0 2rem 1.5rem;
+	
 }
-/*--- About Lettering End ---*/
+
+#pinataheader {
+	margin:6rem 0 0 1.5rem;
+}
+#pinata-category {
+	margin:0 0 .4rem 1.5rem;
+
+}
+
+.pinataparagraph {
+	margin:0 0 0 1.5rem;
+	max-width:30rem;
+	
+}
+
+#pinatatshirts {
+	margin:0 0 2rem 0;
+}
+
+/*--- Pinata Ends ---*/
+
+/*--- Crunchyroll ---*/
+
+#front-view {
+	margin: 0 0 .5rem 0;
+}
+
+#crunchyroll-top-logo {
+	margin: 1rem 0 1.5rem 0;
+}
+
+#crunchyroll-header {
+	margin:
+}
+
+#laptopstickers {
+	margin: 0 0 1.7rem 0;
+}
+
+/*--- Crunchyroll Ends ---*/
+
+/*--- About Me ---*/
+
+#top-about {
+	margin:5rem 0 0 1.2rem;
+	
+}
+
+/*--- About Me End ---*/
 
   footer a {
+	height:5rem;
     padding:0 0 0 0rem;
 	font-size:15px;
   }
@@ -447,16 +590,69 @@ footer a:hover {
 	font-size:.8rem;
 }
 
-#cthuluheader {
-	margin: 4rem 0 0 0;
+/*--- Cthulu ---*/
+
+#cthuluconcept {
+	margin: 0 0 .5rem 4rem
 }
 
-/*--- About Lettering ---*/
-#about-lettering {
-	margin-top: 2rem;
-	padding: 0 7rem 0 0;
+#cthuluheader {
+	margin: 6rem 0 0 0;
 }
-/*--- About Lettering End ---*/
+
+.cthulu-paragraph-width {
+	max-width:33rem;
+	margin: 0 0 0 4rem;
+}
+/*--- Cthulu End ---*/
+
+/*--- Package ---*/
+
+#packageheader {
+	margin:5.5rem 0 0 1.3rem;
+}
+
+#packagecategory {
+	margin:0 0 0 1.3rem;
+}
+
+#top-concept {
+	margin: 0 0 0 1rem;
+}
+
+/*--- Package End ---*/
+
+/*--- Pinata ---*/
+
+#pinata-top-logo {
+	padding: 1rem 2rem 0 0
+}
+
+#pinataheader {
+	margin:6rem 0 0 1rem;
+}
+#pinata-category {
+	margin:0 0 .4rem 1rem;
+
+}
+
+.pinataparagraph {
+	margin:0 0 1rem 1rem;
+	max-width:35rem;
+	
+}
+
+/*--- Pinata Ends---*/
+
+
+/*--- About Me ---*/
+
+#top-about {
+	margin:5rem 0 0 0;
+	
+}
+
+/*--- About Me End ---*/
 
  footer a {
     padding:0 0 0 0rem;

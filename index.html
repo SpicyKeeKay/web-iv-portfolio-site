@@ -16,11 +16,11 @@
 
 <body>
 	<header>
-      <a href="#home" class="logo" data-scroll>Fixed Nav</a>
+      <a href="#work"><img class="logo" src="img/logo.svg" alt="keekay's logo" width="140" height="140" data-scroll></a>
       	<nav class="nav-collapse">
         	<ul>
           		<li class="menu-item active"><a href="#work" data-scroll>Work</a></li>
-          		<li class="menu-item"><a href="about.html" data-scroll>About</a></li>
+          		<li class="menu-item"><a href="#about" data-scroll>About</a></li>
           		<li class="menu-item"><a href="#contact" data-scroll>Contact</a></li>
         	</ul>
       	</nav>
@@ -68,17 +68,17 @@
                     	<figcaption>
 							<h2>Pi&ntilde;atas Dale</h2>
 							<p>Identity System</p>
-							<a href="jarritos-page.html"></a>
+							<a href="pinata-page.html"></a>
 						</figcaption>			
                      </figure>
                </div>
                <div class="medium-12 columns">
                 	<figure class="snip0017">
-                    	<img alt="product image" src="http://placehold.it/470x432"/>
+                    	<img alt="Crunchyroll Headphones" src="img/crunchyroll/home-screen-medium.jpg"/>
                     	<figcaption>
-							<h2>Design 4</h2>
-							<p>Package Design</p>
-							<a href="#"></a>
+							<h2>Crunchyroll</h2>
+							<p>Integrated Branding</p>
+							<a href="crunchyroll-page.html"></a>
 						</figcaption>
                    </figure>
                 </div>
@@ -167,12 +167,7 @@
 <section id="about">
 	<div class="row">
 		<div class="columns">
-    	
-    	</div>
-	</div>
-	<div class="row">
-		<div class="columns">
-			<p class="about-me-paragraph">My name is Enrique but call me Keekay. Based in Lincoln, Nebraska, I studied graphic design in the Graphic Design &Iota; Media Arts program at Southeast Community College. I love adding illustrative and handmade elements to my designs which I feel helps give a project that little extra something to make it stand out. I’m also proficient in the Adobe Creative Suite.</p>
+			<p id="top-about" class="about-me-paragraph">My name is Enrique but call me Keekay. Based in Lincoln, Nebraska, I studied graphic design in the Graphic Design &Iota; Media Arts program at Southeast Community College. I love adding illustrative and handmade elements to my designs which I feel helps give a project that little extra something to make it stand out. I’m also proficient in the Adobe Creative Suite.</p>
 			<p class="about-me-paragraph"> I love playing playing Super Smash Bros.,Fire Emblem or drinking soda. I also collect and read a vast array of mangas.</p>
 		</div>
  	 </div>
@@ -183,11 +178,11 @@
   <h2>Contact me</h2>
   <div class="title-bar"></div>
 
-  <form id="contact" action="#" method="post">
+  <form id="contact" method="post" data-abide action="contactengine.php">
     <div class="left">
-      <input type="text" placeholder="First & Last Name" required="required"/>
-      <input type="email" placeholder="Email" required="required"/>
-      <input type="text" placeholder="Subject" required="required"/>
+      <input type="text" id="Name" name="Name" placeholder="First & Last Name" required="required"/>
+      <input type="email" id="Email" name="Email" placeholder="Email" required="required"/>
+      <input type="text" id="Message" name="Message" placeholder="Subject" required="required"/>
     </div>
     <div class="right">
       <textarea placeholder="Message" required></textarea>
@@ -199,15 +194,13 @@
 
 </div>
 
-<footer class="column large-12 medium-12">
-      <div class="bottom">
-        <div class="column large-3 medium-3 small-6">
-          <p class="email"><a href="mailto:hello@keekaydesign.com">hello@keekaydesign.com</a></p>
-        </div>
-        <div class="column large-3 medium-3 large-offset-2 medium-offset-1 small-6">
-          <small class="right">&copy; 2015 Enrique Garay</small>
-        </div>
-      </div>
+<footer>
+	<div class="column medium-6 small-only-text-center">
+       <a href="mailto:hello@keekaydesign.com">hello@keekaydesign.com</a>
+    </div>
+    <div class="column large-3 medium-3 large-offset-2 medium-offset-1 small-6">
+       <small class="right">&copy; 2015 Enrique Garay</small>
+    </div>
 </footer>
 
 
