@@ -5,7 +5,9 @@ $EmailTo = "garygaray215@yahoo.com";
 $Subject = "Keekay Contact Form";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
+$Subject = Trim(stripslashes($_POST['Subject']));
 $Message = Trim(stripslashes($_POST['Message'])); 
+ 
 
 // validation
 $validationOK=true;
@@ -21,6 +23,9 @@ $Body .= $Name;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;
+$Body .= "\n";
+$Body .= "Subject: ";
+$Body .= $Subject;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $Message;

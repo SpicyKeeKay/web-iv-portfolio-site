@@ -154,12 +154,12 @@
 
   <form id="contact" method="post" data-abide action="contactengine.php">
     <div class="left">
-      <input type="text" id="Name" name="Name" placeholder="First & Last Name" required="required"/>
+       <input type="text" id="Name" name="Name" placeholder="First & Last Name" required="required"/>
       <input type="email" id="Email" name="Email" placeholder="Email" required="required"/>
-      <input type="text" id="Message" name="Message" placeholder="Subject" required="required"/>
+      <input type="text" id="Subject" name="Subject" placeholder="Subject" required="required"/>
     </div>
     <div class="right">
-      <textarea placeholder="Message" required></textarea>
+      <textarea id="Message" name="Message" placeholder="Message" required></textarea>
     </div>
     <div class="send-button cl">
       <button type="submit">Send</button>
